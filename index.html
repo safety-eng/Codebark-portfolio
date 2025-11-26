@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodeBark.dev – Fredrik Berg</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfolio of Fredrik Berg – aspiring frontend developer and safety & security engineer. Projects, tech stack, blog and contact."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Top Navigation -->
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="#hero" class="logo">
+          <span class="logo-main">Code</span
+          ><span class="logo-accent">Bark</span><span class="logo-dot">.</span
+          ><span class="logo-dev">dev</span>
+        </a>
+        <nav class="main-nav">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#tech">Tech Stack</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="hero" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <p class="eyebrow">
+              Aspiring Frontend Developer · Safety & Security Engineer
+            </p>
+            <h1>
+              Hi, I’m Fredrik.<br />
+              <span
+                >Building clean web experiences – one line of code and one dog
+                walk at a time.</span
+              >
+            </h1>
+            <p class="hero-subtitle">
+              I’m transitioning from maritime safety and operations into web
+              development. CodeBark.dev is where I document my journey, showcase
+              projects and experiment with modern frontend tools.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn primary">View projects</a>
+              <a href="#contact" class="btn ghost">Contact me</a>
+            </div>
+
+            <div class="hero-meta">
+              <div>
+                <span class="meta-label">Based in</span>
+                <span class="meta-value">Trondheim, Norway</span>
+              </div>
+              <div>
+                <span class="meta-label">Background</span>
+                <span class="meta-value">Maritime operations & HSEQ</span>
+              </div>
+              <div>
+                <span class="meta-label">GitHub</span>
+                <a
+                  class="meta-value link-inline"
+                  href="https://github.com/safety-eng"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  @safety-eng
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-media">
+            <!-- Photo card -->
+            <figure class="photo-card">
+              <div class="photo-frame">
+                <img
+                  src="assets/fredrik-dog.jpg"
+                  alt="Fredrik holding his dog in a green field."
+                />
+              </div>
+              <figcaption>
+                Fredrik &amp; one of the CodeBark “junior developers”.
+              </figcaption>
+            </figure>
+
+            <!-- Minimalistic illustration placeholder -->
+            <div class="illustration-card">
+              <div class="avatar-abstract">
+                <div class="avatar-head"></div>
+                <div class="avatar-body"></div>
+                <div class="avatar-dog"></div>
+              </div>
+              <p class="illustration-caption">
+                Minimal, dog-friendly identity for CodeBark.dev
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section">
+        <div class="container">
+          <header class="section-header">
+            <h2>Projects</h2>
+            <p>
+              A selection of learning projects and experiments as I grow from
+              maritime engineer to web developer.
+            </p>
+          </header>
+
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="card project-card">
+              <div class="card-media project-cover cover-norgeshistorie">
+                <span class="tag">HTML · CSS · JS</span>
+              </div>
+              <div class="card-body">
+                <h3>Norgeshistorie Timeline</h3>
+                <p>
+                  A single-page site with a scrollable timeline, quiz section
+                  and clean layout explaining key periods in Norwegian history.
+                </p>
+                <div class="card-actions">
+                  <a
+                    href="https://norgeshistorie.netlify.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn small"
+                  >
+                    Visit site
+                  </a>
+                  <button class="btn ghost small project-toggle" type="button">
+                    More details
+                  </button>
+                </div>
+                <div class="project-extra">
+                  <p>
+                    Built with semantic HTML, responsive CSS grid and vanilla
+                    JavaScript. Deployed on Netlify with GitHub integration for
+                    automatic updates.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="card project-card">
+              <div class="card-media project-cover cover-vaskeliste">
+                <span class="tag">React (in progress)</span>
+              </div>
+              <div class="card-body">
+                <h3>Vaskeliste / FamilyChores</h3>
+                <p>
+                  A household cleaning planner inspired by checklists used on
+                  ships – recurring tasks, roles, and shared accountability for
+                  chores.
+                </p>
+                <div class="card-actions">
+                  <a
+                    href="https://github.com/safety-eng"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn small"
+                  >
+                    View code (WIP)
+                  </a>
+                  <button class="btn ghost small project-toggle" type="button">
+                    More details
+                  </button>
+                </div>
+                <div class="project-extra">
+                  <p>
+                    Planned stack: React, TypeScript and Supabase. Focus on
+                    simple UX, clean data model for households/areas/tasks and
+                    mobile-first design.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="card project-card">
+              <div class="card-media project-cover cover-codebark">
+                <span class="tag">Design · Frontend</span>
+              </div>
+              <div class="card-body">
+                <h3>CodeBark.dev Portfolio</h3>
+                <p>
+                  This minimalist portfolio that highlights my background,
+                  projects and learning roadmap, built with accessible, semantic
+                  HTML and clean CSS.
+                </p>
+                <div class="card-actions">
+                  <button class="btn ghost small project-toggle" type="button">
+                    More details
+                  </button>
+                </div>
+                <div class="project-extra">
+                  <p>
+                    Focus on Scandinavian-inspired design: lots of whitespace,
+                    soft shadows, subtle blue accent, and responsive layout that
+                    works well on mobile and desktop.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT / RESUME -->
+      <section id="about" class="section section-alt">
+        <div class="container about-grid">
+          <div>
+            <header class="section-header">
+              <h2>About me</h2>
+              <p>
+                From the North Sea to the browser – combining safety mindset
+                with clean, reliable interfaces.
+              </p>
+            </header>
+
+            <p>
+              I’m a safety &amp; security engineer currently working at Equinor,
+              with over a decade of experience from offshore and maritime
+              operations. Now I’m using that structured, risk-aware mindset to
+              learn frontend development and build digital products.
+            </p>
+
+            <p>
+              I enjoy running, strength training and hiking with my dogs.
+              CodeBark.dev is the place where I explore web technologies,
+              experiment with side-projects and share what I learn along the
+              way.
+            </p>
+
+            <div class="resume-highlights">
+              <h3>Current role</h3>
+              <p>
+                Safety &amp; Security Engineer · Equinor ASA · 2022 – present
+              </p>
+
+              <h3>Previous experience</h3>
+              <ul>
+                <li>
+                  HSEQ Advisor / Project HSEQ Manager · Fred Olsen Windcarrier
+                </li>
+                <li>Marine Superintendent · Odfjell SE</li>
+                <li>Supervisor / Auditor · Safepath</li>
+                <li>Deck Officer / Safety Officer · Teekay Shipping</li>
+              </ul>
+
+              <h3>Education</h3>
+              <ul>
+                <li>Master’s in Maritime Operations (2023–2025)</li>
+                <li>Bachelor in Nautical Science</li>
+              </ul>
+
+              <a
+                href="assets/CV-Fredrik-Berg.pdf"
+                class="btn ghost small"
+                download
+              >
+                Download full CV (PDF)
+              </a>
+            </div>
+          </div>
+
+          <!-- Resume timeline card -->
+          <aside class="card resume-card">
+            <h3>Timeline</h3>
+            <ul class="timeline">
+              <li>
+                <span class="timeline-year">2023–2025</span>
+                <span class="timeline-label"
+                  >Master’s in Maritime Operations</span
+                >
+              </li>
+              <li>
+                <span class="timeline-year">2022–now</span>
+                <span class="timeline-label"
+                  >Safety &amp; Security Engineer, Equinor</span
+                >
+              </li>
+              <li>
+                <span class="timeline-year">2012–2020</span>
+                <span class="timeline-label"
+                  >Deck Officer &amp; Safety Officer, Shuttle Tankers</span
+                >
+              </li>
+              <li>
+                <span class="timeline-year">2009–2012</span>
+                <span class="timeline-label">Bachelor in Nautical Science</span>
+              </li>
+            </ul>
+
+            <p class="timeline-note">
+              Curious, analytical and structured – now channelling that into
+              code.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <!-- TECH STACK -->
+      <section id="tech" class="section">
+        <div class="container">
+          <header class="section-header">
+            <h2>Tech stack</h2>
+            <p>
+              The tools I use today and what I’m currently learning as I move
+              deeper into frontend development.
+            </p>
+          </header>
+
+          <div class="tech-groups">
+            <div class="tech-group">
+              <h3>Core web</h3>
+              <div class="pill-row">
+                <span class="pill">HTML5</span>
+                <span class="pill">CSS3</span>
+                <span class="pill">JavaScript (ES6+)</span>
+              </div>
+            </div>
+
+            <div class="tech-group">
+              <h3>Currently learning</h3>
+              <div class="pill-row">
+                <span class="pill pill-soft">TypeScript</span>
+                <span class="pill pill-soft">React</span>
+                <span class="pill pill-soft">Netlify</span>
+                <span class="pill pill-soft">Supabase</span>
+              </div>
+            </div>
+
+            <div class="tech-group">
+              <h3>Tools &amp; workflow</h3>
+              <div class="pill-row">
+                <span class="pill">VS Code</span>
+                <span class="pill">Git &amp; GitHub</span>
+                <span class="pill">Figma / Canva</span>
+                <span class="pill">Notion</span>
+                <span class="pill">Power Apps</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BLOG -->
+      <section id="blog" class="section section-alt">
+        <div class="container">
+          <header class="section-header">
+            <h2>Blog &amp; notes</h2>
+            <p>
+              Short reflections from my learning journey – from basic HTML to
+              building full web apps.
+            </p>
+          </header>
+
+          <div class="blog-grid">
+            <article class="card blog-card">
+              <div class="card-body">
+                <h3>From deck officer to developer</h3>
+                <p>
+                  How maritime operations, checklists and safety routines map
+                  surprisingly well to writing maintainable code and designing
+                  robust systems.
+                </p>
+                <span class="blog-meta">Draft · Coming soon</span>
+              </div>
+            </article>
+
+            <article class="card blog-card">
+              <div class="card-body">
+                <h3>Designing a Scandinavian-inspired portfolio</h3>
+                <p>
+                  Notes on spacing, typography and color choices for this site –
+                  and how I keep it minimal while still personal.
+                </p>
+                <span class="blog-meta">Draft · Coming soon</span>
+              </div>
+            </article>
+
+            <article class="card blog-card">
+              <div class="card-body">
+                <h3>Turning real-world problems into side-projects</h3>
+                <p>
+                  Using everyday pain points – like keeping track of chores – as
+                  a way to generate realistic app ideas and learn new tools.
+                </p>
+                <span class="blog-meta">Draft · Coming soon</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section">
+        <div class="container contact-grid">
+          <div>
+            <header class="section-header">
+              <h2>Contact</h2>
+              <p>
+                Want to collaborate, mentor, or just talk about code, safety or
+                dogs? I’d love to hear from you.
+              </p>
+            </header>
+
+            <ul class="contact-list">
+              <li>
+                <span>Email</span>
+                <a href="mailto:fredrikbrrrg@gmail.com"
+                  >fredrikbrrrg@gmail.com</a
+                >
+              </li>
+              <li>
+                <span>GitHub</span>
+                <a
+                  href="https://github.com/safety-eng"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >github.com/safety-eng</a
+                >
+              </li>
+              <li>
+                <span>Location</span>
+                <span>Trondheim, Norway</span>
+              </li>
+            </ul>
+          </div>
+
+          <form class="card contact-form" action="#" method="post">
+            <h3>Send me a message</h3>
+            <p class="form-note">
+              This form is static for now. Connect it later with a service like
+              Netlify Forms or EmailJS.
+            </p>
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input
+                type="email"
+                name="email"
+                placeholder="you@example.com"
+                required
+              />
+            </label>
+            <label>
+              Message
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="What would you like to talk about?"
+                required
+              ></textarea>
+            </label>
+
+            <button type="submit" class="btn primary full-width">
+              Send message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> CodeBark.dev · Built by Fredrik Berg</p>
+        <p class="footer-dog">Made with ❤️, coffee and dog walks.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
